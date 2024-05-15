@@ -1,0 +1,93 @@
+html {
+  height: 100%;
+  width: 100%;
+  
+}
+body{
+  margin: 0;
+  padding: 0;
+   background-image:linear-gradient(to bottom, #22c1c3, #fdbb2d);
+}
+button{
+padding: 5px 10px;
+  width:130px
+}
+button:hover{
+  transform: scale(0.9);
+}
+h1{
+  font-family: "Satisfy", cursive;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 35px;
+color: #ffffff;
+  margin-bottom: 5px;
+}
+
+section{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+ 
+  
+  height: 100vh;
+}
+
+.main-div{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+h2{
+  color: #ffffff;
+}
+
+#result{
+  font-family: "Satisfy", cursive;
+  font-size: 25px;
+  font-weight: 900;
+  color: #f6f6f6;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+h3{
+  color:#f6f6f6;
+  font-family: "Poppins", sans-serif;
+}
+
+img{
+  width: 100%;
+}
+table th,td{
+  border:solid 0.5px #ffffff;
+  padding:5px 10px;
+  font-size:20px;
+  font-family:"Poppins",sans-serif;
+  color:#f6f6f6;
+}
+table {
+  margin-top:10px;
+  border:solid 0.5px #ffffff;
+}
+#btn-2{
+  display:none;
+}
+
+.bg-celebration{
+  background-image:url('/img/bgcelebr.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: #00000014;
+}
+
+
