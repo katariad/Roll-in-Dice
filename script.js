@@ -128,6 +128,8 @@ function reset(){
    document.getElementById("btn-2").style.display="none";
    sectionmain.removeAttribute("class", "bg-celebration");
    document.getElementById("main-div").style.display="flex";
+   p2score=[];
+   p1score=[];
   let allrow=document.querySelectorAll('tr');
 
  for(let i=1;i<allrow.length;i++){
