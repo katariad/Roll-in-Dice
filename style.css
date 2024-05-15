@@ -82,7 +82,7 @@ table {
 }
 
 .bg-celebration{
-  background-image:url('/img/bgcelebr.gif');
+  background-image:url('img/bgcelebr.gif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
