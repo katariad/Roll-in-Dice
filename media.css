@@ -1,0 +1,42 @@
+@media (max-width:920px) {
+
+    p,
+    td,
+    th {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    img {
+        width: 50%;
+    }
+
+    .div-1 {
+        width: 45%;
+
+    }
+
+    .main-div {
+        display: flex;
+    }
+}
+
+@media (max-width:478px) {
+
+    table th,
+    td {
+        padding: 4px 5px;
+        font-size: 12px;
+    }
+}
